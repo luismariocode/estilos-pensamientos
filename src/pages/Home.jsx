@@ -1,22 +1,29 @@
-import React from 'react';
-import ImageHome from '../assets/home.svg';
+import React from "react";
+import ImageHome from "../assets/home.svg";
+import BtnPrimary from "../components/BtnPrimary";
+import Footer from "../components/Footer";
 
 const Home = () => {
-    return (
-        <main className='home-main grid grid-rows-3 grid-cols-1 gap-0'>
-           <section className=' flex  justify-center'>
-                <img src={ImageHome} alt="" />
-           </section>
-           <section className=' text-left'>
-            <span className='font-primary font-medium'>Test</span>
-            <h1 className="text-4xl	text-color-primary font-bold font-primary" >Titulo de<br/> Cuestionario</h1>
-            <button className='mt-6 bg-color-primary font-bold py-2 px-4 rounded-lg w-full h-12'>
-                <span className='text-color-light'>COMENZAR</span>
-            </button>    
-            </section>
-            <footer className=' border border-cyan-500'>
+    const handleOnClick = () => {
+        console.log("click");
+    };
 
-            </footer>
+    return (
+        <main className="home-main p-6 my-0 min-h-screen grid items-center grid-rows-3 gap-0  ">
+            <section className=" flex  justify-center">
+                <img src={ImageHome} alt="" />
+            </section>
+            <section className="flex flex-col self-start justify-start pt-0 text-left sm:text-center sm:items-center">
+                <span className="font-primary font-medium">Test</span>
+                <h1 className="text-4xl	text-primary font-bold leading-8 font-primary">
+                    Titulo de
+                    <br /> Cuestionario
+                </h1>
+                <BtnPrimary text="Comenzar" onClick={handleOnClick} />
+            </section>
+            <Footer />
+            
+            
         </main>
     );
 };

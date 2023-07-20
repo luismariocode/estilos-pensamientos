@@ -9,12 +9,16 @@ export default {
     
     fontFamily: {
       'primary' : ['Sora', 'sans-serif'],
+      'secondary' : ['Lunasima', 'sans-serif'],
     },
 
 
     colors: {
-      'color-primary': '#00BFA6',
-      'color-light': '#F5F5F5',
+      'primary': '#00BFA6',
+      'secondary': '#58F99B',
+      'light': '#F5F5F5',
+      'gray': '#BDBDBD',
+      'dark': '#212121',
     },
   },
   plugins: [],
