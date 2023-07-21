@@ -15,10 +15,11 @@ export default {
 
     colors: {
       'primary': '#00BFA6',
+      'primary-dark': '#009884',
       'secondary': '#58F99B',
       'light': '#F5F5F5',
       'gray': '#BDBDBD',
-      'dark': '#212121',
+      'dark': '#1c1c1c',
     },
   },
   plugins: [],
