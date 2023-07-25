@@ -2,9 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-#home-svg{
- 
+@layer base {
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
 }
+
 
 
 #home-title{
@@ -15,6 +20,3 @@
     color:#00BFA6
 }
 
-button:hover{
-    transform: translateY(5px);
-}

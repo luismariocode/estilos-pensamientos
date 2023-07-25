@@ -1,21 +1,23 @@
 import React from "react";
-import ImgHome from "../components/ImgHome";
-import TextHome from "../components/TextHome";
-import Footer from "../components/Footer";
+import Layout from "../components/Layout";
+
+//Hero
+import HeroImage from "../components/HeroImage";
+import Image from "../assets/home.svg";
+
+//Contenido de home
+import ContentHome from "../sections/ContentHome";
 
 const Home = () => {
     return (
-        <main className="home-main p-6 my-0 min-h-screen grid items-center grid-rows-3 gap-0 min-w-min  ">
-            <section className="flex justify-center">
-                <ImgHome />
-            </section>
-            <section className="flex flex-col self-start justify-start pt-0  text-center items-center">
-                <TextHome />
-            </section>
-            <section className="flex items-end h-full">
-                <Footer />
-            </section>
-        </main>
+        <div className="min-h-screen">
+            <Layout 
+                gridLayout={2}
+                heightLayout="screen"
+                sectionHero={<HeroImage svgImage={Image} heightSm={44} heightMd={60} />}
+                sectionContent={<ContentHome />}
+            />
+        </div>
     );
 };
 
