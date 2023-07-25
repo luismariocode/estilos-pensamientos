@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}
+
+
+
+#home-title{
+    background: rgb(88,249,155);
+    background: linear-gradient(153deg, rgba(88,249,155,1) 0%, rgba(34,193,195,1) 29%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color:#00BFA6
+}
+
