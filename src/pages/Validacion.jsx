@@ -16,7 +16,7 @@ const Validacion = () => {
         <Layout 
             gridLayout={2}
             heightLayout="screen"
-            sectionHero={<HeroImage svgImage={Image} heightSm={16} heightMd={16}/>}
+            sectionHero={<HeroImage svgImage={Image} heightSm={12} heightMd={12}/>}
             sectionContent={<ContentValidacion />}
         />
     </div>

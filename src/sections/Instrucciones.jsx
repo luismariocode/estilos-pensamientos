@@ -10,32 +10,26 @@ const Intrucciones = ({}) => {
           className="flex  items-center h-auto w-11/12 p-6 rounded border-2 shadow bg-light border-secondary md:w-6/12 "
         >
           <div className="text-justify">
-            <div className="flex justify-between mb-2">
-              <p className="font-bold tracking-widest 	text-primary-dark">
-                INSTRUCCIONES
-              </p>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="currentColor"
-                className="w-6 h-6 text-primary-dark"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm8.706-1.442c1.146-.573 2.437.463 2.126 1.706l-.709 2.836.042-.02a.75.75 0 01.67 1.34l-.04.022c-1.147.573-2.438-.463-2.127-1.706l.71-2.836-.042.02a.75.75 0 11-.671-1.34l.041-.022zM12 9a.75.75 0 100-1.5.75.75 0 000 1.5z"
-                  clipRule="evenodd"
-                />
-              </svg>
-            </div>
+            <details className=" text-justify">
+              <summary className="font-bold text-sucess tracking-widest cursor-pointer md:mb-2 ">INDICACIONES</summary>
+              <p className="font-medium text-blue">Hola @Nombre, en cada situación, divide 5 puntos entre 4 opciones. La opción con más puntos es la que más va contigo. No hay límite de puntos, pueden ser de 0 a 5. Todas las opciones suman 5 puntos y son obligatorias. ¡Elige sabiamente!</p>
+            </details>
 
-            <p className="font-medium text-dark">
-              Hola @Nombre, en cada situación tendrás que dividir{" "}
-              <strong>5 puntos entre 4 opciones</strong>, recuerda que la que
-              tenga más puntos es la opción que más va contigo.
-              <br />
-              No hay <strong>límite de puntos</strong> por lo que una opción
-              pueden tener de 0 a 5 puntos.<br/>Todas las opciones tienen que sumar 5 puntos y todas son obligatorias.
-            </p>
+            <details className="mt-4 text-justify">
+              <summary className="font-bold text-sucess tracking-widest cursor-pointer md:mb-2 ">
+                VALOR DE LOS PUNTOS
+              </summary>
+              <p className="font-medium text-blue">0: No estoy de acuerdo.</p>
+              <p className="font-medium text-blue">
+                1: No me termina de convencer.
+              </p>
+              <p className="font-medium text-blue">2: Podría considerarlo.</p>
+              <p className="font-medium text-blue">3: Está bien, supongo.</p>
+              <p className="font-medium text-blue">4: Me identifico.</p>
+              <p className="font-medium text-blue">
+                5: ¡Totalmente de acuerdo!
+              </p>
+            </details>
           </div>
         </motion.div>
       </div>
