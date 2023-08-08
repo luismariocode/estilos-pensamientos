@@ -8,16 +8,17 @@ export default {
   theme: {
     
     fontFamily: {
-      'primary' : ['Sora', 'sans-serif'],
-      'secondary' : ['Lunasima', 'sans-serif'],
+      'primary' : ['Montsserrat', 'sans-serif'],
+      'secondary' : ['Lato', 'sans-serif'],
     },
 
 
     colors: {
-      'primary': '#00BFA6',
-      'primary-dark': '#009884',
-      'secondary': '#58F99B',
-      'light': '#F5F5F5',
+      'primary': '#6176EA',
+      'primary-light': '#74CCD8',
+      'secondary': '#042A2B',
+      'light': '#F2F2F2',
+      'white': '#FFFFFF',
       'gray': '#BDBDBD',
       'dark': '#1c1c1c',
       'red' : '#FF0000',

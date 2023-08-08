@@ -1,12 +1,11 @@
-import React from "react";
-import Layout from "../components/Layout";
+import {Layout} from "../components";
 
 //Hero
-import HeroImage from "../components/HeroImage";
+import {HeroImage} from "../components";
 import Image from "../assets/validacion.svg";
 
 //Contenido de home
-import ContentValidacion from "../sections/ContentValidacion";
+import {Validacion as Main} from "../sections/mains";
 
 
 const Validacion = () => {
@@ -16,8 +15,8 @@ const Validacion = () => {
         <Layout 
             gridLayout={2}
             heightLayout="screen"
-            sectionHero={<HeroImage svgImage={Image} heightSm={16} heightMd={16}/>}
-            sectionContent={<ContentValidacion />}
+            sectionHero={<HeroImage svgImage={Image} heightSm={"16"} heightMd={"16"}/>}
+            sectionContent={<Main />}
         />
     </div>
     );

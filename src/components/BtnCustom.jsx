@@ -1,16 +1,20 @@
 import {motion} from "framer-motion";
+import PropTypes from "prop-types";
 
-const BtnPrimary = ({ text, onClick }) => {
+const BtnCustom = (props) => {
 
     return (
         <motion.button
             initial={{ opacity: 0, y: 100 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 1.2 }}
-            className="max-w-xs mt-6 self-center bg-sucess border-2 border-sucess-dark  font-bold py-2 px-4 rounded-lg w-11/12 h-12 sm:w-1/2  hover:bg-sucess-dark hover:font-bold transition duration-150 ease-in-out"
-            onClick={onClick}>
+            type="submit"
+            className=" mt-6 max-w-xs self-center bg-primary-light  text-dark border-2 border-sucess-dark  font-bold py-2 px-4 rounded-lg w-full h-12 shadow-lg hover:shadow-none hover:bg-sucess-dark hover:text-primary-light hover:font-bold disabled:bg-gray-light disabled:text-primary-light disabled:border-primary-light transition duration-150 ease-in-out"
+            onClick={props.onClick}
+            disabled={props.disabled}>
+            
             <div className="flex justify-center items-center">
-                <span className="text-base text-light font-medium uppercase tracking-widest">{text}</span>
+                <span className="text-base font-medium uppercase tracking-widest">{props.text}</span>
                 <motion.svg
                     animate={{ translateX: 10 }}
                     transition={{ repeat: Infinity, repeatType: "reverse", duration: .7 }}
@@ -18,11 +22,12 @@ const BtnPrimary = ({ text, onClick }) => {
                     fill="none"
                     viewBox="0 0 24 24"
                     strokeWidth={1.5}
-                    stroke="white"
-                    className="w-6 h-6 ml-2">
+                    className="w-6 h-6 ml-2 icon-button icon-next ">
+                
                     <path
                         strokeLinecap="round"
                         strokeLinejoin="round"
+                        
                         d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"/>
                 </motion.svg>
             </div>
@@ -30,4 +35,10 @@ const BtnPrimary = ({ text, onClick }) => {
     );
 };
 
-export default BtnPrimary;
+BtnCustom.propTypes = {
+    text: PropTypes.string.isRequired,
+    onClick: PropTypes.func,
+    disabled: PropTypes.bool,
+};
+
+export default BtnCustom;

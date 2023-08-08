@@ -6,7 +6,7 @@ const Footer = () => {
             initial={{ opacity: 0 , y: 100}}
             animate={{ opacity: 1 , y: 0}}
             transition={{ duration: 0.5, delay: 0.7 }}
-                className="absolute bg-secondary bottom-0 w-full h-auto pb-3 shadow-lg ">
+                className="absolute bg-white border-t border-gray bottom-0 w-full h-auto pb-3 shadow-lg ">
                 <div className="pt-2 h-50  mb-5  text-center  w-full">
                     <span className="text-muted  text-sm text-dark font-secondary">
                         Desarrollado por&nbsp;@

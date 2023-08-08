@@ -1,22 +1,20 @@
-import React from "react";
-import Layout from "../components/Layout";
+import {Layout} from "../components";
 
 //Instrucciones
-import Instrucciones from "../sections/Instrucciones";
+import {Instrucciones} from "../components/elements";
 
 //Contenido de Survey
-import ContentSurvey from "../sections/ContentSurvey";
+import {Survey as Main} from "../sections/mains";
 
 
 const Nombre = () => {
-
     return (
         <div className="min-h-auto">
         <Layout 
             gridLayout={'[auto, auto]'}
             heightLayout="auto"
             sectionHero={<Instrucciones />}
-            sectionContent={<ContentSurvey />}
+            sectionContent={<Main />}
         />
     </div>
     );
