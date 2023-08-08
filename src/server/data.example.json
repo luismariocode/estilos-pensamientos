@@ -1,0 +1,120 @@
+{
+  "data": {
+    "urlForm": "https://docs.google.com/forms/d/e/'id_del_form'",
+    "entryIdTest": "entry.id_pregunta",
+    "entryNombre": "entry.id_pregunta",
+    "entryCorreo": "entry.id_pregunta",
+    "statements": [{
+        "idStatement": 1,
+        "statement": "Situación, declaración o afirmación...",
+        "options": [{
+            "numberOption": 1,
+            "typeOption": "B",
+            "idOption": "1-1-B",
+            "descriptionOption": "La opción número 1 de la esta declaracion",
+            "idDescriptionOption": "[1-1-B] La opcion número 1 de la esta declaracion",
+            "entrieOption": "entry.id_pregunta"
+          },
+          {
+            "numberOption": 2,
+            "typeOption": "C",
+            "idOption": "1-2-C",
+            "descriptionOption": "Soy la segunda opción 2",
+            "idDescriptionOption": "[1-2-C] Soy la segunda opción 2 de esta situación hipotética",
+            "entrieOption": "entry.id_pregunta"
+          },
+          {
+            "numberOption": 3,
+            "typeOption": "D",
+            "idOption": "1-3-D",
+            "descriptionOption": "Soy distinto a las demas y también soy una opción de esta afirmación.",
+            "idDescriptionOption": "[1-3-D] Soy distinto a las demas y también soy una opción de esta afirmación.",
+            "entrieOption": "entry.id_pregunta"
+          },
+          {
+            "numberOption": 4,
+            "typeOption": "A",
+            "idOption": "1-4-A",
+            "descriptionOption": "Soy una cuarta opción otra alternativa a esta situación hipotética.",
+            "idDescriptionOption": "[1-4-A] Soy una cuarta opción otra alternativa a esta situación hipotética.",
+            "entrieOption": "entry.id_pregunta"
+          }
+        ]
+      },
+      {
+        "idStatement": 2,
+        "statement": "Situación, declaración o situación no real, totalmente falsa...",
+        "options": [{
+            "numberOption": 1,
+            "typeOption": "B",
+            "idOption": "2-1-B",
+            "descriptionOption": "En este caso que es ficticio, yo prefiero hacer lo siguiente.",
+            "idDescriptionOption": "[2-1-B] En este caso que es ficticio, yo prefiero hacer lo siguiente.",
+            "entrieOption": "entry.id_pregunta"
+          },
+          {
+            "numberOption": 2,
+            "typeOption": "A",
+            "idOption": "2-2-A",
+            "descriptionOption": "No siempre estoy de acuerdo con estas situaciones.",
+            "idDescriptionOption": "[2-2-A] No siempre estoy de acuerdo con estas situaciones.",
+            "entrieOption": "entry.id_pregunta"
+          },
+          {
+            "numberOption": 3,
+            "typeOption": "C",
+            "idOption": "2-3-C",
+            "descriptionOption": "Soy otra opción en este mundo de oportunidades.",
+            "idDescriptionOption": "[2-3-C] Soy otra opción en este mundo de oportunidades.",
+            "entrieOption": "entry.id_pregunta"
+          },
+          {
+            "numberOption": 4,
+            "typeOption": "D",
+            "idOption": "2-4-D",
+            "descriptionOption": "Todo lo anterior me parece incorrecto y yo prefiero hacer lo mismo pero totalmente distinto.",
+            "idDescriptionOption": "[2-4-D] Todo lo anterior me parece incorrecto y yo prefiero hacer lo mismo pero totalmente distinto.",
+            "entrieOption": "entry.id_pregunta"
+          }
+        ]
+      },
+      {
+        "idStatement": 3,
+        "statement": "Situación o declaración...",
+        "options": [{
+            "numberOption": 1,
+            "typeOption": "D",
+            "idOption": "3-1-D",
+            "descriptionOption": "Porqué es así y cómo podría ser mejor ",
+            "idDescriptionOption": "[3-1-D] Porqué es así y cómo podría ser mejor",
+            "entrieOption": "entry.id_pregunta"
+          },
+          {
+            "numberOption": 2,
+            "typeOption": "C",
+            "idOption": "3-2-C",
+            "descriptionOption": "Para qué sirve, cuál es el beneficio",
+            "idDescriptionOption": "[3-2-C] Para qué sirve, cuál es el beneficio",
+            "entrieOption": "entry.id_pregunta"
+          },
+          {
+            "numberOption": 3,
+            "typeOption": "B",
+            "idOption": "3-3-B",
+            "descriptionOption": "Cómo lo puedo obtener, dónde se encuentra",
+            "idDescriptionOption": "[3-3-B] Cómo lo puedo obtener, dónde se encuentra",
+            "entrieOption": "entry.id_pregunta"
+          },
+          {
+            "numberOption": 4,
+            "typeOption": "A",
+            "idOption": "3-4-A",
+            "descriptionOption": "Qué es y cómo son sus partes",
+            "idDescriptionOption": "[3-4-A] Qué es y cómo son sus partes",
+            "entrieOption": "entry.id_pregunta"
+          }
+        ]
+      }
+    ]
+  }
+}

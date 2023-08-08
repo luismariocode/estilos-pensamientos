@@ -1,23 +1,22 @@
-import React from "react";
-import Layout from "../components/Layout";
+//Componentes
+import {Layout} from "../components";
 
 //Hero
-import HeroImage from "../components/HeroImage";
+import {HeroImage} from "../components";
 import Image from "../assets/nombre.svg";
 
-//Contenido de home
-import ContentNombre from "../sections/ContentNombre";
+//Contenido de nombre
+import {Nombre as Main} from "../sections/mains";
 
 
 const Nombre = () => {
-
     return (
         <div className="min-h-screen">
         <Layout 
-            gridLayout={2}
+            gridLayout={"2"}
             heightLayout="screen"
-            sectionHero={<HeroImage svgImage={Image} heightSm={24} heightMd={28}/>}
-            sectionContent={<ContentNombre />}
+            sectionHero={<HeroImage svgImage={Image} heightSm={"24"} heightMd={"28"}/>}
+            sectionContent={<Main />}
         />
     </div>
     );
