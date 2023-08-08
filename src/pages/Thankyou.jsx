@@ -13,13 +13,8 @@ const Thankyou = () => {
         <Layout 
             gridLayout={2}
             heightLayout="screen"
-<<<<<<< HEAD
-            sectionHero={<HeroImage svgImage={Image} heightSm={14} heightMd={14}/>}
-            sectionContent={<ContentThankyou />}
-=======
             // sectionHero={<HeroImage svgImage={Image} heightSm={16} heightMd={16}/>}
             sectionContent={<Main />}
->>>>>>> dev
         />
     </div>
     );
